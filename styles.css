@@ -1,6 +1,6 @@
 .wrapper{
-    width: 600px;
-    height: max-content;
+    max-width: 600px;
+    max-height: 300px;
     position: absolute;
     left: 0;
     right: 0;

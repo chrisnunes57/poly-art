@@ -12,8 +12,10 @@ function scatter(){
   for(let i = 0; i < images.length; i++){
       let shape = images[i];
       shape.classList.add("scattered");
-      shape.setAttribute("x", -2 * wrapper.offsetLeft + 50 + window.innerWidth * 2.1 * Math.random());
-      shape.setAttribute("y", -1 * wrapper.offsetTop + 100 + window.innerHeight * 2 * Math.random());
+      let newX = -2 * wrapper.offsetLeft + 50 + window.innerWidth * 2.1 * Math.random();
+      let newY = -1 * wrapper.offsetTop + 100 + window.innerHeight * 2 * Math.random()
+      shape.setAttribute("x", newX);
+      shape.setAttribute("y", newY);
 
   }
 }

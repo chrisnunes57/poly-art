@@ -1,2 +1,2 @@
 # TODO:
-Make it work in a browser besides Google Chrome :/
+Make it work in Safari :/
